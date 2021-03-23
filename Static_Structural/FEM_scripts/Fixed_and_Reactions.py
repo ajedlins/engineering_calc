@@ -99,10 +99,10 @@ def LinearLoad(w1, w2, x1, L, Direction):
         :return:
         '''
 
-        # Create the fixed end reaction vector
+    # Create the fixed end reaction vector
         MAT = zeros((12, 1))
 
-        # Populate the fixed end reaction vector
+    # Populate the fixed end reaction vector
         MAT.itemset((3, 0), -T * (L - x) / L)
         MAT.itemset((9, 0), -T * x / L)
 
