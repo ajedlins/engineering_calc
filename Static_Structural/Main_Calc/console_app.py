@@ -24,8 +24,6 @@ def newfuncion():
    :param simple_beam_point_load:
    :return:
    """
-   car01 = Model('tak', 'nie')
-   car01.show()
 
 
 
